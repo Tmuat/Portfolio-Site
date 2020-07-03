@@ -1,15 +1,65 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 
 body {
-    background-color: #000000;
-    font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+  font-family: "Roboto", sans-serif;
 }
 
 /*--------------------------------------------Colors*/
 
+.gradient-colour {
+  background-color: #c27c76;
+  background-image: linear-gradient(90deg, #f5d6e1, #b96c63);
+  background-size: 100%;
+  background-repeat: repeat;
+  text-shadow: 0px 4px 4px rgba(229, 229, 229, 0.2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
 /*--------------------------------------------Navbar*/
 
 /*--------------------------------------------Landing Page*/
+
+.landing-page {
+  background: url("../images/background-image-landing.jpg");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 0px;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+}
+
+.landing-main-text {
+  font-weight: 900;
+  font-size: 5vw;
+  line-height: 82px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15em;
+  padding-top: 1vh;
+}
+
+.landing-sub-text {
+  font-weight: 900;
+  font-size: 2vw;
+  line-height: 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
 
 /*--------------------------------------------About Me*/
 
