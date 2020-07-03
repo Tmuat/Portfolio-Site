@@ -21,6 +21,15 @@ body {
 
 /*--------------------------------------------Navbar*/
 
+.logo {
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  position: 0;
+}
 /*--------------------------------------------Landing Page*/
 
 .landing-page {
@@ -34,6 +43,7 @@ body {
   height: 100vh;
   left: 0px;
   top: 0px;
+  z-index: 1;
 }
 
 .landing-main-text {
@@ -46,7 +56,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.15em;
-  padding-top: 1vh;
+  padding-top: 100px;
 }
 
 .landing-sub-text {
