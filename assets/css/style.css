@@ -61,7 +61,8 @@ body {
   display: block;
 }
 
-.show {
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
   width: 95vw;
   margin: 2vh 2.5vw 0vh 2.5vw;
   padding: 10px 30px 10px 30px;
@@ -73,17 +74,35 @@ body {
   text-align: left;
 }
 
-.show ul li {
+.navbar-collapse.collapsing ul li,
+.navbar-collapse.show ul li {
     border-right: none;
     border-bottom: 2px dashed #fafafa;
 }
 
-.show ul li:last-of-type{
+.navbar-collapse.collapsing ul li:last-of-type,
+.navbar-collapse.show ul li:last-of-type{
     border-bottom: none;
 }
 
-.show ul li a {
+.navbar-collapse.collapsing ul li a,
+.navbar-collapse.show ul li a {
     color: #ffffff;
+}
+
+#nav-items li a:hover {
+  color: #f5d6e1;
+  text-decoration: underline;
+}
+
+#nav-items li a:focus {
+  color: #f5d6e1;
+  text-decoration: underline;
+}
+
+#nav-items li a:active {
+  color: #f5d6e1;
+  transform: translateY(1px);
 }
 /*--------------------------------------------Landing Page*/
 
