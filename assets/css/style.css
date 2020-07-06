@@ -28,7 +28,62 @@ body {
   position: absolute;
   width: 65px;
   height: 65px;
-  position: 0;
+  left: 8px;
+  top: 8px;
+  z-index: 10;
+}
+
+.navbar {
+    height: 73px;
+    z-index: 2;
+}
+
+.navbar-nav li a {
+  font-size: 25px;
+  letter-spacing: 0.15em;
+  padding: 0;
+  color: #c27c76;
+}
+
+.navbar-nav li {
+  border-right: 2px solid #f5d6e1;
+}
+
+.navbar-nav li:last-of-type {
+  border-right: none;
+}
+
+.navbar-toggler-icon {
+  position: relative;
+  padding-top: 8px;
+  background-image: url("../images/burger-icon.png");
+  font-size: 1.5rem;
+  display: block;
+}
+
+.show {
+  width: 95vw;
+  margin: 2vh 2.5vw 0vh 2.5vw;
+  padding: 10px 30px 10px 30px;
+  z-index: 1;
+  background: linear-gradient(180deg, #c27c76 0%, #d6a4b6 100%);
+  border: 2px solid #f5d6e1;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.show ul li {
+    border-right: none;
+    border-bottom: 2px dashed #fafafa;
+}
+
+.show ul li:last-of-type{
+    border-bottom: none;
+}
+
+.show ul li a {
+    color: #ffffff;
 }
 /*--------------------------------------------Landing Page*/
 
