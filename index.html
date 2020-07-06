@@ -19,42 +19,41 @@
   </head>
 
   <body id="page-top">
-    <nav class="navbar navbar-expand-lg" role="navigation">
-      <div class="d-flex flex-grow-1">
-        <a class="navbar-brand logo" href="#page-top"></a>
-        <div class="w-100 text-right">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#nav-items"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-      <div class="collapse navbar-collapse flex-grow-1" id="nav-items">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-          <li class="nav-item">
-            <a class="nav-link active" href="#page-top">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CV</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
     <header>
+      <nav class="navbar navbar-expand-lg fixed-top" role="navigation">
+        <div class="d-flex flex-grow-1">
+          <a class="navbar-brand logo" href="#page-top"></a>
+          <div class="w-100 text-right">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#nav-items"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1" id="nav-items">
+          <ul class="navbar-nav ml-auto flex-nowrap">
+            <li class="nav-item">
+              <a class="nav-link active" href="#page-top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CV</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div class="container-fluid landing-page">
         <div class="row">
           <div class="col-12">
@@ -66,7 +65,7 @@
         </div>
       </div>
     </header>
-    <section id="about-me" class="background-overlay">
+    <section id="about-me" class="background-colour">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -74,10 +73,10 @@
             <p class="about-me-text">
               I am a newly qualified full stack software developer. I have
               recently transitioned careers from a sports performance analyst
-              with the help of Code Institute. <br/>
+              with the help of Code Institute. <br />
               I specialise in HTML 5, CSS, Javascript & Python; I aim to create
               responsive websites with clean and functional design; working with
-              I work with both front-end & back-end frameworks. <br/>
+              I work with both front-end & back-end frameworks. <br />
               I am passionate about designing and creating engaging user-centred
               websites to allow all users and customers to be completely
               satisfied when using your products and services.
@@ -86,14 +85,20 @@
         </div>
       </div>
     </section>
-    <section>
-      My Work
+    <section id="my-work" class="my-work">
+      <div class="background-overlay">
+        My Work
+      </div>
     </section>
-    <section>
-      Skills
+    <section id="skills" class="skills-bg">
+      <div class="background-overlay">
+        Skills
+      </div>
     </section>
-    <section>
-      Contact Me
+    <section id="contact-me" class="contact-bg">
+      <div class="background-overlay">
+        Contact Me
+      </div>
     </section>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
