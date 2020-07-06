@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 
 body {
-  background-color: #000000;
+  background-color: #FFF;
   font-family: "Roboto", sans-serif;
+}
+
+header,
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+    border: 1px solid #b96c63;
 }
 
 /*--------------------------------------------Colors*/
@@ -17,6 +24,16 @@ body {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+}
+
+.background-overlay {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #989898 0%, #EAD7BB 9.9%, #E3C5C5 90.1%);
+}
+
+.about-me-text {
+    color: #888888;
 }
 
 /*--------------------------------------------Navbar*/
@@ -104,6 +121,7 @@ body {
   color: #f5d6e1;
   transform: translateY(1px);
 }
+
 /*--------------------------------------------Landing Page*/
 
 .landing-page {
@@ -118,6 +136,7 @@ body {
   left: 0px;
   top: 0px;
   z-index: 1;
+  display: block;
 }
 
 .landing-main-text {
