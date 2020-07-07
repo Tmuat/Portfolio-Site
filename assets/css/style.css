@@ -135,6 +135,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  background-attachment: fixed;
   margin-bottom: 0px;
   width: 100vw;
   height: 100vh;
@@ -177,6 +178,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  background-attachment: fixed;
   margin-bottom: 0px;
   width: 100vw;
   height: 100vh;
@@ -203,6 +205,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  background-attachment: fixed;
   margin-bottom: 0px;
   width: 100vw;
   height: 100vh;
@@ -215,7 +218,7 @@ section {
   .landing-main-text {
     font-size: 6.5vw;
     line-height: 82px;
-    padding: 140px 0px 30px 0px;
+    padding: 140px 0px 15px 0px;
   }
 
   .landing-sub-text {
