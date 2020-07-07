@@ -196,7 +196,7 @@ h2 {
   font-family: Nobile;
   font-style: normal;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 32px;
   line-height: 120%;
   display: flex;
   align-items: center;
@@ -216,15 +216,14 @@ h2 {
   position: relative;
   max-width: 100%;
   max-height: 100%;
-  overflow: hidden;
 }
 
 .image-wrapper img {
-  margin: -30px 0px 0px -180px;
   position: absolute;
   height: 90vh;
-  left: 0;
+  left: -5vw;
   bottom: 0;
+  overflow: hidden;
 }
 
 /*--------------------------------------------My Work*/
@@ -281,11 +280,36 @@ h2 {
     font-size: 2.5vw;
     line-height: 47px;
   }
+
+  .about-me-text {
+    font-size: 25px;
+    padding-top: 30px;
+  }
+
+.image-wrapper img {
+  left: -10vw;
+}
+
 }
 
 @media (max-width: 992px) {
   .landing-page {
     background-size: contain;
+  }
+
+  .about-me-text {
+    font-size: 30px;
+    padding-top: 80px;
+  }
+
+  .about-row {
+    padding-left: 25px;
+  }
+  .about-title {
+    position: relative;
+    left: 70px;
+    padding-top: 0px;
+    font-size: 40px;
   }
 }
 
@@ -300,6 +324,20 @@ h2 {
     font-size: 5vw;
     line-height: 47px;
     padding-top: 20px;
+  }
+
+  .about-row {
+    padding-left: 15px;
+  }
+
+  .about-title {
+    font-size: 35px;
+    position: relative;
+    left: 70px;
+  }
+
+  .about-me-text {
+    font-size: 25px;
   }
 }
 
