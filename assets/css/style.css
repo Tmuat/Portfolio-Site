@@ -10,6 +10,7 @@ body {
 header,
 section {
   height: 100vh;
+  width: 100vw;
 }
 
 .scroll-snap {
@@ -196,11 +197,16 @@ h2 {
   font-family: Nobile;
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 3.5vmin;
   line-height: 120%;
   display: flex;
   align-items: center;
   letter-spacing: 0.08em;
+}
+
+.text-wrapper {
+  overflow: hidden;
+  height: 100vh;
 }
 
 .about-title {
@@ -216,14 +222,15 @@ h2 {
   position: relative;
   max-width: 100%;
   max-height: 100%;
+  overflow-x: hidden;
 }
 
 .image-wrapper img {
   position: absolute;
   height: 90vh;
-  left: -5vw;
+  width: auto;
+  left: 150px;
   bottom: 0;
-  overflow: hidden;
 }
 
 /*--------------------------------------------My Work*/
@@ -281,25 +288,27 @@ h2 {
     line-height: 47px;
   }
 
-  .about-me-text {
-    font-size: 25px;
-    padding-top: 30px;
+  .about-title {
+    position: relative;
+    left: 70px;
+    padding-top: 0px;
+    font-size: 40px;
   }
 
-.image-wrapper img {
-  left: -10vw;
-}
+  .about-me-text {
+    font-size: 3.5vmin;
+    padding-top: 15px;
+  }
 
+  .image-wrapper img {
+    left: 0px;
+    bottom: 0;
+  }
 }
 
 @media (max-width: 992px) {
   .landing-page {
     background-size: contain;
-  }
-
-  .about-me-text {
-    font-size: 30px;
-    padding-top: 80px;
   }
 
   .about-row {
@@ -310,6 +319,11 @@ h2 {
     left: 70px;
     padding-top: 0px;
     font-size: 40px;
+  }
+
+  .about-me-text {
+    font-size: 3vmin;
+    padding-top: 10px;
   }
 }
 
@@ -334,10 +348,6 @@ h2 {
     font-size: 35px;
     position: relative;
     left: 70px;
-  }
-
-  .about-me-text {
-    font-size: 25px;
   }
 }
 
