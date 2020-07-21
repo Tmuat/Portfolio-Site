@@ -329,6 +329,40 @@ h2 {
   z-index: -1;
 }
 
+.form-style {
+  margin-bottom: 15px;
+  background: rgba(250, 250, 250, 0.9);
+  border: 5px solid #c27c76;
+  border-radius: 10px;
+  width: 775px;
+  height: 57px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #7b7b7b;
+}
+
+.contact {
+  padding-left: 15px;
+}
+
+.submit-style {
+  background: #f5d6e1;
+  border: 5px solid #c27c76;
+  border-radius: 10px;
+  width: 115px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #b96c63;
+}
 /*--------------------------------------------Media Queries*/
 
 @media (max-width: 1200px) {
