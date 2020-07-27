@@ -279,7 +279,7 @@ h2 {
   align-items: center;
   letter-spacing: 0.1em;
   color: #000000;
-  padding-top:50px;
+  padding-top: 50px;
 }
 
 .card-sub {
@@ -303,6 +303,16 @@ h2 {
   padding-top: 15px;
 }
 
+.link-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 175.19%;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
 .box-text {
   text-align: center;
 }
@@ -322,6 +332,19 @@ h2 {
   right: 0;
   position: absolute;
   transform: rotate(180deg);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 60px;
+}
+
+.carousel-control-prev {
+  padding-left: 20px;
+}
+
+.carousel-control-next {
+  padding-right: 20px;
 }
 
 .stretch {
