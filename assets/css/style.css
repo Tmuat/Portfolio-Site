@@ -18,7 +18,7 @@ section {
   scroll-snap-align: center;
 }
 
-/*--------------------------------------------Colors & Generic Text*/
+/*---------------------------Colors & Generic Text---------------------------*/
 
 .gradient-colour {
   background-color: #c27c76;
@@ -69,7 +69,7 @@ h2 {
   height: 100vh;
 }
 
-/*--------------------------------------------Navbar*/
+/*---------------------------Navbar---------------------------*/
 
 .logo {
   background: url("../images/logo.png");
@@ -79,7 +79,7 @@ h2 {
   width: 65px;
   height: 65px;
   left: 8px;
-  top: 8px;
+  top: 16px;
   z-index: 10;
 }
 
@@ -92,11 +92,11 @@ h2 {
   font-size: 25px;
   letter-spacing: 0.15em;
   padding: 0;
-  color: #c27c76;
+  color: #f5d6e1;
 }
 
 .navbar-nav li {
-  border-right: 2px solid #f5d6e1;
+  border-right: 2px solid #c27c76;
 }
 
 .navbar-nav li:last-of-type {
@@ -140,22 +140,18 @@ h2 {
   color: #ffffff;
 }
 
-#nav-items li a:hover {
-  color: #f5d6e1;
-  text-decoration: underline;
-}
-
+#nav-items li a:hover,
 #nav-items li a:focus {
-  color: #f5d6e1;
+  color: #c27c76;
   text-decoration: underline;
 }
 
 #nav-items li a:active {
-  color: #f5d6e1;
+  color: #c27c76;
   transform: translateY(1px);
 }
 
-/*--------------------------------------------Landing Page*/
+/*---------------------------Landing Page---------------------------*/
 
 .landing-page {
   background: url("../images/background-image-landing.jpg");
@@ -197,7 +193,7 @@ h2 {
   letter-spacing: 0.15em;
 }
 
-/*--------------------------------------------About Me*/
+/*---------------------------About Me---------------------------*/
 
 .about-me-text {
   color: #888888;
@@ -239,7 +235,7 @@ h2 {
   bottom: 0;
 }
 
-/*--------------------------------------------My Work*/
+/*---------------------------My Work---------------------------*/
 
 .my-work {
   background-image: url("../images/background-image-mywork.jpg");
@@ -352,7 +348,7 @@ h2 {
   padding-top: 10vh;
 }
 
-/*--------------------------------------------Skills*/
+/*---------------------------Skills---------------------------*/
 
 .skills-bg {
   background-image: url("../images/background-image-skills.jpg");
@@ -365,7 +361,7 @@ h2 {
   z-index: -1;
 }
 
-/*--------------------------------------------Contact Me*/
+/*---------------------------Contact Me---------------------------*/
 
 .contact-bg {
   background-image: url("../images/background-image-contact.png");
@@ -399,6 +395,12 @@ h2 {
   padding-left: 15px;
 }
 
+.contact-row {
+  height: 100vh;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .submit-style {
   background: #f5d6e1;
   border: 5px solid #c27c76;
@@ -413,7 +415,7 @@ h2 {
   letter-spacing: 0.05em;
   color: #b96c63;
 }
-/*--------------------------------------------Media Queries*/
+/*---------------------------Media Queries---------------------------*/
 
 @media (max-width: 1200px) {
   .landing-main-text {
@@ -468,6 +470,12 @@ h2 {
   .about-me-text {
     font-size: 3vmin;
     padding-top: 10px;
+  }
+
+  #nav-items li a:hover,
+  #nav-items li a:focus {
+    color: #ffffff;
+    text-decoration: underline;
   }
 
   .carousel-inner
