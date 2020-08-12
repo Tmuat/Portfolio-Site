@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nobile:100,200,300,400,500,600,700,800,900|Roboto:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css?family=Nobile:wght@500,600;700;900family=Roboto:wght@400;500;600;700;900&display=swap');
 
 html,
 body {
@@ -359,6 +359,90 @@ section {
   width: 100vw;
   height: 100vh;
   z-index: -1;
+}
+
+.skills-row {
+  height: 100vh;
+}
+
+.skills-heading {
+    padding-left: 50px;
+    height: 20vh;
+}
+
+.progress-title{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 30px;
+    letter-spacing: 0.15em;
+}
+.progress{
+    height: 17px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    overflow: visible;
+    position: relative;
+}
+
+.progress-bar {
+    overflow: visible;
+}
+
+.progress .progress-bar{
+    border-radius: 15px;
+    box-shadow: none;
+    position: relative;
+    animation: animate-positive 2s;
+}
+.progress .progress-icon,
+.progress .progress-value{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 40px;
+    background: #fff;
+    border: 7px solid #000000;
+    font-size:15px;
+    font-weight: 600;
+    color: #000000;
+    position: absolute;
+    top: -17px;
+    right: -5px;
+}
+.progress .progress-icon{
+    right: auto;
+    left: -5px;
+}
+.progress.purple .progress-icon,
+.progress.purple .progress-value{
+    border: 7px solid #770CFF;
+    color: #770CFF;
+}
+.progress.gold .progress-icon,
+.progress.gold .progress-value{
+    border: 7px solid #ECCB76;
+    color: #ECCB76;
+}
+.progress.green .progress-icon,
+.progress.green .progress-value{
+    border: 7px solid #08a061;
+    color: #08a061;
+}
+
+.bars {
+    padding: 0px 200px 0px 200px;
+    height: 80vh;
+}
+
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
 }
 
 /*---------------------------Contact Me---------------------------*/
