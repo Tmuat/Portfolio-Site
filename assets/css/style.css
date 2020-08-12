@@ -47,7 +47,7 @@ section {
 
 .sub-heading {
   font-weight: 900;
-  font-size: 3.75rem;
+  font-size: 3.5rem;
   line-height: 82px;
   display: flex;
   align-items: center;
@@ -306,7 +306,7 @@ section {
   line-height: 175.19%;
   align-items: center;
   letter-spacing: 0.1em;
-  color: #000000;
+  color: #c27c76;
 }
 
 .box-text {
@@ -415,6 +415,25 @@ section {
   letter-spacing: 0.05em;
   color: #b96c63;
 }
+
+.submit-modal {
+  background: rgba(245, 214, 225, 0.9);
+  border: 2px solid #c27c76;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.contact-img {
+  height: 300px;
+  width: 400px;
+  border: 5px solid #c27c76;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 25vh;
+  margin-left: 5vw;
+}
+
 /*---------------------------Media Queries---------------------------*/
 
 @media (max-width: 1200px) {
@@ -452,7 +471,7 @@ section {
   }
 
   .stretch {
-    padding-top: 15vh;
+    padding-top: 20vh;
     padding-left: 1vw;
     padding-right: 1vw;
   }
@@ -462,7 +481,7 @@ section {
   }
 
   .card-body {
-      padding: 1rem;
+    padding: 1rem;
   }
 
   .carousel-control-prev {
@@ -471,6 +490,13 @@ section {
 
   .carousel-control-next {
     padding-right: 0px;
+  }
+
+  .contact-img {
+    margin-top: 20vh;
+    margin-left: 3vw;
+    height: 200px;
+    width: 300px;
   }
 }
 
@@ -491,7 +517,7 @@ section {
     position: relative;
     left: 70px;
     padding-top: 0px;
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .about-me-text {
@@ -524,19 +550,14 @@ section {
     height: 300px;
   }
 
-  .carousel-inner .active + .carousel-item + .carousel-item {
-    display: block;
-  }
   .carousel-inner
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
     + .carousel-item
     + .carousel-item {
     transition: none;
   }
-  .carousel-inner .carousel-item-next {
-    position: relative;
-    transform: translate3d(0, 0, 0);
-  }
+
   .carousel-item-next.carousel-item-left
     + .carousel-item
     + .carousel-item
@@ -557,7 +578,7 @@ section {
   }
 }
 
-@media (max-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .landing-main-text {
     font-size: 10vw;
     line-height: 82px;
@@ -596,7 +617,8 @@ section {
   }
 
   .carousel-inner
-    .active.col-sm-6.carousel-item
+    .active.col-md-6.carousel-item
+    + .carousel-item
     + .carousel-item
     + .carousel-item {
     position: absolute;
@@ -700,6 +722,13 @@ section {
   }
 }
 
+@media (max-width 576px) {
+  .card {
+    width: 200px;
+    height: 300px;
+  }
+}
+
 @media (max-width: 376px) {
   .landing-main-text {
     font-size: 10vw;
@@ -717,7 +746,7 @@ section {
   .about-title {
     font-size: 25px;
     position: relative;
-    left: 70px;
+    left: 40px;
   }
 
   .about-me-text {
