@@ -58,9 +58,9 @@ As I complete more projects I would like to add these to the site. In the future
 
 I would firstly like to thank Medale Oluwafemi for supporting me as my mentor from the inception of this project through to the completion. 
 
-The carousel used for the my work page can be found [here] (https://azmind.com/demo/bootstrap-carousel-multiple-items/).
+The carousel used for the my work page can be found [here](https://azmind.com/demo/bootstrap-carousel-multiple-items/).
 
-The progress bar used to highlight my skills percentages can be found [here] (https://bestjquery.com/tutorial/progress-bar/demo77/).
+The progress bar used to highlight my skills percentages can be found [here](https://bestjquery.com/tutorial/progress-bar/demo77/).
 
 ### Disclaimer
 
