@@ -24,8 +24,11 @@ The main goal of this project was to create a site capable of showcasing my work
 
 ### Existing Features
 
+Aside from the normal aspects of a site, I utilised a bootstrap carousel, progress bar and snapped scrolling. The link to the tutorials for the aforementioned features can be found towards the bottom of this file.
+
 ### Features Left to Implement
 
+As I complete more projects I would like to add these to the site. In the future, I would also like to add down arrows to each page which when clicked will scroll to the next page.
 
 
 ## Technologies Used
@@ -53,3 +56,12 @@ The main goal of this project was to create a site capable of showcasing my work
 
 ### Acknowledgements
 
+I would firstly like to thank Medale Oluwafemi for supporting me as my mentor from the inception of this project through to the completion. 
+
+The carousel used for the my work page can be found [here] (https://azmind.com/demo/bootstrap-carousel-multiple-items/).
+
+The progress bar used to highlight my skills percentages can be found [here] (https://bestjquery.com/tutorial/progress-bar/demo77/).
+
+### Disclaimer
+
+This site if for educational purposes.
