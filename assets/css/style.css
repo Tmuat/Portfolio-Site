@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nobile:wght@500,600;700;900family=Roboto:wght@400;500;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Nobile:wght@500,600;700;900family=Roboto:wght@400;500;600;700;900&display=swap");
 
 html,
 body {
@@ -366,83 +366,99 @@ section {
 }
 
 .skills-heading {
-    padding-left: 50px;
-    height: 20vh;
+  padding-left: 50px;
+  height: 20vh;
 }
 
-.progress-title{
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 700;
-    color: #ffffff;
-    text-align: center;
-    margin: 0 0 30px;
-    letter-spacing: 0.15em;
+.progress-title {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0 30px;
+  letter-spacing: 0.15em;
 }
-.progress{
-    height: 17px;
-    background: rgba(0,0,0,0.1);
-    border-radius: 15px;
-    margin-bottom: 30px;
-    overflow: visible;
-    position: relative;
+.progress {
+  height: 17px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 30px;
+  overflow: visible;
+  position: relative;
 }
 
 .progress-bar {
-    overflow: visible;
+  overflow: visible;
 }
 
-.progress .progress-bar{
-    border-radius: 15px;
-    box-shadow: none;
-    position: relative;
-    animation: animate-positive 2s;
+.progress .progress-bar {
+  border-radius: 15px;
+  box-shadow: none;
+  position: relative;
+  animation: animate-positive 2s;
 }
 .progress .progress-icon,
-.progress .progress-value{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    line-height: 40px;
-    background: #fff;
-    border: 7px solid #000000;
-    font-size:15px;
-    font-weight: 600;
-    color: #000000;
-    position: absolute;
-    top: -17px;
-    right: -5px;
+.progress .progress-value {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 40px;
+  background: #fff;
+  border: 7px solid #000000;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  position: absolute;
+  top: -17px;
+  right: -5px;
 }
-.progress .progress-icon{
-    right: auto;
-    left: -5px;
+.progress .progress-icon {
+  right: auto;
+  left: -5px;
 }
 .progress.purple .progress-icon,
-.progress.purple .progress-value{
-    border: 7px solid #770CFF;
-    color: #770CFF;
+.progress.purple .progress-value {
+  border: 7px solid #770cff;
+  color: #770cff;
 }
 .progress.gold .progress-icon,
-.progress.gold .progress-value{
-    border: 7px solid #ECCB76;
-    color: #ECCB76;
+.progress.gold .progress-value {
+  border: 7px solid #eccb76;
+  color: #eccb76;
 }
+.progress.red .progress-icon,
+.progress.red .progress-value {
+  border: 7px solid #c70707;
+  color: #c70707;
+}
+
 .progress.green .progress-icon,
-.progress.green .progress-value{
-    border: 7px solid #08a061;
-    color: #08a061;
+.progress.green .progress-value {
+  border: 7px solid #80c88c;
+  color: #80c88c;
+}
+
+.progress.blue .progress-icon,
+.progress.blue .progress-value {
+  border: 7px solid #82c6ca;
+  color: #82c6ca;
 }
 
 .bars {
-    padding: 0px 200px 0px 200px;
-    height: 80vh;
+  padding: 0px 200px 0px 200px;
+  height: 80vh;
 }
 
-@-webkit-keyframes animate-positive{
-    0%{ width: 0; }
+@-webkit-keyframes animate-positive {
+  0% {
+    width: 0;
+  }
 }
-@keyframes animate-positive{
-    0%{ width: 0; }
+@keyframes animate-positive {
+  0% {
+    width: 0;
+  }
 }
 
 /*---------------------------Contact Me---------------------------*/
@@ -522,13 +538,13 @@ section {
 
 @media (max-width: 1200px) {
   .landing-main-text {
-    font-size: 6.5vw;
+    font-size: 8vw;
     line-height: 82px;
     padding: 140px 0px 15px 0px;
   }
 
   .landing-sub-text {
-    font-size: 2.5vw;
+    font-size: 4vw;
     line-height: 47px;
   }
 
@@ -599,13 +615,15 @@ section {
 
   .about-title {
     position: relative;
-    left: 70px;
+    left: 40px;
     padding-top: 0px;
-    font-size: 35px;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: visible;
   }
 
   .about-me-text {
-    font-size: 3vmin;
+    font-size: 3.5vmin;
     padding-top: 10px;
   }
 
@@ -660,6 +678,20 @@ section {
     display: block;
     visibility: visible;
   }
+
+  .skills-heading {
+    height: 15vh;
+  }
+
+  .bars {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 85vh;
+  }
+
+  .progress-title {
+    margin: 0 0 15px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -690,7 +722,7 @@ section {
   }
 
   .about-me-text {
-    font-size: 4vmin;
+    font-size: 3.5vmin;
     padding-top: 10px;
   }
 
@@ -711,6 +743,15 @@ section {
     z-index: -1;
     display: block;
     visibility: visible;
+  }
+
+  .bars {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .progress-title {
+    margin: 0 0 5vh;
   }
 }
 
@@ -842,5 +883,13 @@ section {
     left: -70px;
     right: 0px;
     bottom: 0;
+  }
+
+  .progress-title {
+    font-size: 18px;
+  }
+
+  .progress {
+    margin-bottom: 5vh;
   }
 }
