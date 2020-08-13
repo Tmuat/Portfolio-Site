@@ -5,13 +5,33 @@ This is a portfolio website used to showcase my coding through links to projects
 
 ## UX
 
+### Purpose
+
+The main goal of this project was to create a site capable of showcasing my work with HTML & CSS to future employers, along with creating a site I can incorporate links to all my work. 
+
+### User Stories
+
+- As a visitor to the site:
+    - Visit a clean, visually appealing site
+    - Find links to any work the creator has made
+    - Find an up to date CV
+    - Be able to contact the portfolipo sites owner
+    - A responsive site
+
 ## Features
 
 ### Existing Features
 
 ### Features Left to Implement
 
+
+
 ## Technologies Used
+
+- HTML
+- CSS
+- Boostrap
+- Javascript
 
 ## Testing
 
