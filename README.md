@@ -40,7 +40,21 @@ As I complete more projects I would like to add these to the site. In the future
 
 ## Testing
 
+In order to check my codes were valid, the following validation services were used:
+- HTML code was checked through [W3C Markup Validation Service](https://validator.w3.org/) 
+- CSS code was checked through [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+
 ## Deployment
+
+This site was written using GitPod and is hosted on GitHub. The website has been deployed directly from the master branch of this repository with the link to the site at the top of this readme. To deploy the site I used the following steps:
+- Ensured I was logged in to my GitHub before selecting the Tmuat/Portfolio-Site repository.
+- Go to the settings tab along the repository navbar
+- Scroll down to GitHub pages; ensure the source selected is 'Master Branch'
+- Once done, the site should be deployed (note. this can take a few minutes)
+
+If you would like to keep this repository in your local workspace, please follow the below instructions:
+- Copy the following link into your editor... 'git clone https://github.com/Tmuat/Portfolio-Site.git' 
 
 ## Credits
 
