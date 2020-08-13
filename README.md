@@ -1,6 +1,8 @@
 # Thomas Muat Portfolio
 Code Institute Milestone Project - User-Centric Frontend Development
 
+[Link to live site](tmuat.github.io/portfolio-site/)
+
 This is a portfolio website used to showcase my coding through links to projects & repositories. This website informs potential employers a bit about myself, the projects I have worked on, my coding skills and a form with which to contact me on.
 
 ## UX
