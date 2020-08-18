@@ -45,6 +45,7 @@ As I complete more projects I would like to add these to the site. In the future
 In order to check my codes were valid, the following validation services were used:
 - HTML code was checked through [W3C Markup Validation Service](https://validator.w3.org/) 
 - CSS code was checked through [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- Once the CSS code was validated, it was run through [Autoprefixer](https://autoprefixer.github.io/)
 
 
 ## Deployment
