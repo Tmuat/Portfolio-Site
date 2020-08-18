@@ -1,7 +1,7 @@
 # Thomas Muat Portfolio
 Code Institute Milestone Project - User-Centric Frontend Development
 
-![Picture of site on different devices](https://github.com/Tmuat/Portfolio-Site/tree/master/assets/site-overview.png?raw=true)
+![Picture of site on different devices](assets/images/site-overview.png)
 
 [Link to live site.](tmuat.github.io/portfolio-site/)
 
