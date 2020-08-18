@@ -46,6 +46,8 @@ In order to check my codes were valid, the following validation services were us
 - HTML code was checked through [W3C Markup Validation Service](https://validator.w3.org/) 
 - CSS code was checked through [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - Once the CSS code was validated, it was run through [Autoprefixer](https://autoprefixer.github.io/)
+- The page load speed was tested using [GTmetrix](https://gtmetrix.com/). With the below the output of page load speed.
+![Picture of gtmetrix site score](assets/images/gtmetrix.png)
 
 
 ## Deployment
